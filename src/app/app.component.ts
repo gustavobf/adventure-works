@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CONSTANT_WORKS } from 'src/app.constants';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adventure-works';
+
+  content = CONSTANT_WORKS;
+
 }
